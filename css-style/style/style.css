@@ -1,0 +1,218 @@
+body {
+	max-width: 1000px;
+	margin: 30px auto;
+	background-color: #e2f3eb;
+	color: #444;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+	overflow: auto;
+	border-top: 7px solid #0f9d58;
+	box-shadow: 2px 2px 5px #ddd;
+}
+
+content {
+	display: block;
+	padding-top: 30px;
+}
+
+header > img {
+	float: left;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #444;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #00b8d4;
+}
+
+a:active {
+	text-decoration: none;
+	color: red;
+}
+
+.intro {
+ 	margin-left:15px;
+ 	float: left;
+}
+
+.introduce {
+	font-family: serif;
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+.label {
+	display: inline-block;
+	background-color: #00b8d4;
+	color: white;
+	border-radius: 3px;
+	font-style: italic;
+	width: 40px;
+	font-size:80%;
+	padding: 2px 5px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+h1 {
+	font-family: "Segoe UI Semibold", Arial, sans-serif;
+	margin: 0px 0px 15px 0px;
+}
+
+h2 {
+	font-family: "Segoe UI", Arial, sans-serif;
+	margin: 0px 0px 15px 0px;
+}
+
+p {
+	font-family: "Segoe UI", Arial, serif;
+	color: #444;
+}
+
+.itemsection:link, .itemsection:visited  {
+	display: inline-block;
+	background-color: white;
+	padding: 15px;
+	width: 216px;
+	border-top: 7px solid #0f9d58;
+	box-shadow: 2px 2px 5px #ddd;
+}
+
+.itemsection:hover {
+	background-color: #eee;
+	border-top: 7px solid #0a6e3e;
+}
+
+.itemsection img {
+	float: left;
+}
+
+.itemsection h2 {
+	padding-left: 10px;
+	text-decoration: none;
+	font-family: "Segoe UI Semibold", Arial, serif;
+	float: left;
+}
+
+.itemsection p {
+	clear: left;
+}
+
+nav {
+	overflow: auto;
+	margin: 10px 0px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0px;	
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a:link, nav li a:visited {
+	display: block;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	background-color: #0f9d58;
+	font-family: "Segoe UI", sans-serif;
+	color: white;
+	margin-right: 5px;
+	border-radius: 4px;
+}
+
+nav li a:hover {
+	background-color: #19c370;
+}
+
+nav li a:active {
+	background-color: #0b7240;
+}
+
+.content {
+	background-color: white;
+	padding: 20px 20px 40px;
+	box-shadow: 2px 2px 5px #ddd;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	font-family: "Segoe UI", Arial, serif;
+	color: #444;
+}
+
+th, td {
+	padding: 10px;
+	vertical-align: middle;
+}
+
+th {
+	color: white;
+}
+
+thead {
+	background-color: #0f9d58;
+}
+
+tr:hover {
+	background-color: #eee;
+}
+
+.project-item {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	border-top: 7px solid #0f9d58;
+	box-shadow: 2px 2px 5px #ddd;
+	margin: 0 0 15px;
+	padding: 20px 20px 30px;
+}
+
+.project-item:hover {
+	background-color: #f3f3f3;
+}
+
+.project-item ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.project-item ul li {
+	line-height: 1.7;
+}
+
+.project-item ul li .label {
+	width: 70px;
+}
+
+.progress-bar {
+	height: 40px;
+	width: 900px;
+	background-color: #ddd;
+	border-radius: 5px;
+	margin: 0 auto 20px;
+	overflow: auto;
+}
+
+.progress-bar-completed {
+	height: 100%;
+	line-height: 40px;
+	float: left;
+	background-color: #18BF6E;
+	color: white;
+}
