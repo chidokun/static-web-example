@@ -1,0 +1,271 @@
+body {
+    background-color: #E2F3E4;
+    color: #444;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+content {
+    display: block;
+    background-color: white;
+    max-width: 800px;
+    box-shadow: 6px 6px 10px #ccc;
+    margin: 50px auto;
+    overflow: auto;
+    border-radius: 7px;
+    padding-bottom: 20px;
+}
+
+.nav {
+    padding: 30px 30px 20px;
+    margin-bottom: 30px;
+    height: 70px;
+    overflow: auto;
+    background-color: #0bb251;
+}
+
+.logo {
+    display: block;
+    float: left;
+}
+
+div.logo > img {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.title {
+    display: inline-block;
+    overflow: auto;
+}
+
+h1 {
+    display: block;
+    font-family: "Segoe UI Light", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.description {
+    display: block;
+    color: white;
+    font-size: 13px;
+}
+
+.info-button  {
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 20px;
+    background-color: #0f9d58;
+    float: right;
+    border-radius: 5px;
+    color: white;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;   
+}
+
+.info-button:hover {
+    background-color: #17C471;
+}
+
+.info-button:active {
+    background-color: #047B42;
+}
+
+
+.color-panel {
+    display: block;
+    clear: both;
+    margin: 10px 20px 15px 40px;
+    float: left;
+}
+
+.color {
+    display: block;
+    margin: 0 20px 20px;
+    width: 175px;
+    height: 175px;
+    background-color: #ffff00;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#valueColor {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Consolas", monospace;
+}
+
+.color-choose {
+    display: block;
+    float: left;
+    margin: 10px 20px 15px;
+    width: auto;
+}
+
+.color-item {
+    display: block;
+    overflow: auto;
+    width: auto;
+    margin-bottom: 25px;
+}
+
+.color-item-color {
+    display: inline-block;
+    height: 43px;
+    width: 43px;
+    float: left;
+    border-radius: 5px;
+}
+
+.color-item-red {   
+    background-color: red;
+}
+
+.color-item-green { 
+    background-color: #00ff00;
+}
+
+.color-item-blue {  
+    background-color: blue;
+}
+
+.range-item {
+    display: inline-block;
+    margin: 11px;
+    height: 21px;
+    width: 350px;
+    min-width: 100px;
+    float: left;
+}
+
+.value-item {
+    display: inline-block;
+    float: right;
+    margin: 11px;
+    text-align: center;
+    font-family: "Consolas", monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.modal-animate {
+    background-color: white;
+    margin: 40px auto;
+    width: 700px;
+    height: 360px;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.4);
+    overflow: auto;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    z-index: 2;
+
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+.modal-header {
+    padding: 40px 40px 20px;
+    margin-bottom: 30px;
+    height: 100px;
+    overflow: auto;
+    background-color: #0bb251;
+}
+
+.modal-header > img {
+    display: inline-block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+.modal-title {
+    display: inline-block;
+    float: left;
+}
+
+.modal-title > h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Segoe UI Light", Arial, sans-serif;
+}
+
+.modal-title > p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.modal-info {
+    margin: 20px 40px 10px;
+}
+
+.quotes {
+    font-family: serif;
+    padding-left: 70px;
+    font-size: 29px;
+    background-image: url(../images/quotes.png);
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+
+.modal-info > p {
+    margin: 20px 0 0;
+}
+
+a:link, a:visited {
+    padding: 0 5px;
+    text-decoration: none;
+    color: blue;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+a:active {
+    background-color: blue;
+}
+
+#modal {
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Chooser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+<content>
+    <div class="nav">
+        <div class="logo">
+            <img src="images/paint.png" alt="Icon">
+            <div class="title">
+                <h1>Color Chooser</h1>
+                <div class="description">The simplest color tool</div>
+            </div>          
+        </div>
+        <div class="info-button" onclick="document.getElementById('modal').style.display='block'">More information</div>
+    </div>  
+    <div class="color-panel">
+        <div class="color" id="color"></div>
+        <div id="valueColor">#ffff00</div>
+    </div>
+    <div class="color-choose">
+        <div class="color-item">
+            <div class="color-item-color color-item-red"></div>
+            <input class="range-item" type="range" name="rangeRed" min="0" max="255" value="255" step="1" onchange="calculate()">
+            <div id="valueRed" class="value-item">255</div>
+        </div>
+        <div class="color-item">
+            <div class="color-item-color color-item-green"></div>
+            <input class="range-item" type="range" name="rangeGreen" min="0" max="255" value="255" step="1"  onchange="calculate()">
+            <div id="valueGreen" class="value-item">255</div>
+        </div>
+        <div class="color-item">
+            <div class="color-item-color color-item-blue"></div>
+            <input class="range-item" type="range" name="rangeBlue" min="0" max="255" value="0" step="1"  onchange="calculate()">
+            <div id="valueBlue" class="value-item">0</div>
+        </div>
+    </div>
+</content>
+<div id="modal" onclick="document.getElementById('modal').style.display='none'">
+    <div class="modal-animate">     
+        <div class="modal-header">
+            <img src="https://scontent.fsgn5-1.fna.fbcdn.net/v/t1.0-9/15036513_1980810992145803_3442864773723872128_n.jpg?oh=e1275575ff5e7d4070f2a39b0e095306&oe=593E34D7" alt="Icon">
+            <div class="modal-title">
+                <h2>Nguyễn Lê Hoàng Tuấn</h2>
+                <p>Student at University of Information Technology</p>
+            </div>
+        </div>  
+        <div class="modal-info">    
+            <div class="quotes">I am full-stack developer. I am passion about building awesome products in Java, C# and Web.</div>
+            <p>Contact: <a href="mailto:nguyentuanit96@gmail.com">nguyentuanit96@gmail.com</a></p>
+        </div>      
+    </div>
+</div>
+</body>
+</html>
