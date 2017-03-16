@@ -1,0 +1,115 @@
+body {
+    background-color: #DEEDF4;
+    color: #444;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.box {
+    background-color: white;
+    max-width: 500px;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.1);
+    margin: 50px auto;
+    overflow: auto;
+    border-top: 5px solid #60C0F0;
+    padding: 30px;
+}
+
+.header {
+    overflow: auto;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.img-button {
+    float: left;
+    margin-right: 5px;
+}
+
+h1 {
+    display: inline-block;
+    font-family: "Segoe UI Light", "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #60C0F0;
+    float: left;
+    font-size: 30px;
+}
+
+.content {
+    margin: 10px 0;
+    overflow: auto;
+}
+
+.input, .output {
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 5px;
+    font-family: "Consolas", "Courier New", monospace;
+    text-align: right;
+    font-size: 30px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.option {
+    width: 98%;
+    border-radius: 6px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.option-item {
+    display: inline-block;
+    background-color: #ddd;
+    width: 25%;
+    margin-right: -5px;
+    padding: 0;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;   
+}
+
+.option-item:hover {
+    background-color: #bbb;
+}
+
+.option-item:active {
+    background-color: #777;
+}
+
+.option-item-selected {
+    background-color: #999;
+}
+
+#calculate {
+    text-align: center;
+    line-height: 40px;
+    width: 98%;
+    background-color: #ddd;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;   
+}
+
+#calculate:hover {
+    background-color: #bbb;
+}
+#calculate:active {
+    background-color: #777;
+}
